@@ -8,8 +8,8 @@ s = "The Daily Byte", return "Byte Daily The".
 
 SOLUTION:
 
-inputStr = input() # Taking Input From User
-inputList = inputStr.split(' ') # Spliting The Sentence Into Words
-inputList = inputList[::-1] # reversing list
-reversedString = " ".join(inputList) # Joining the reversed inputList
-print(reversedString) #Printing the Reversed String
+      inputStr = input() # Taking Input From User
+      inputList = inputStr.split(' ') # Spliting The Sentence Into Words
+      inputList = inputList[::-1] # reversing list
+      reversedString = " ".join(inputList) # Joining the reversed inputList
+      print(reversedString) #Printing the Reversed String
